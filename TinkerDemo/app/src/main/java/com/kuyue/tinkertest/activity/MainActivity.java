@@ -27,11 +27,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final String path = getPatchPath(this);
+        Log.d("PPP", ">copy patch to|" + path);
         mDesc = (TextView) findViewById(R.id.desc);
         mDesc.setText(path);
         mTextView = (TextView) findViewById(R.id.tv);
         mButton = (Button) findViewById(R.id.btn);
-        mTextView.setText("这不是bug");
+//        mTextView.setText("这不是bug");
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

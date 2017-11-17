@@ -9,11 +9,6 @@ import com.tencent.tinker.lib.tinker.TinkerInstaller;
 import com.tencent.tinker.loader.app.ApplicationLike;
 import com.tencent.tinker.loader.shareutil.ShareConstants;
 
-/**
- * Created by sen young on 2017/2/6 18:10.
- * 邮箱:595327086@qq.com.
- */
-
 @DefaultLifeCycle(application = ".SimpleTinkerInApplication",
         flags = ShareConstants.TINKER_ENABLE_ALL,
         loadVerifyFlag = false)
